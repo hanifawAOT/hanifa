@@ -1,0 +1,28 @@
+
+  
+  .kontak-teks {
+    color: #00ffe7;
+    text-shadow: 0 0 5px #00ffe7;
+    font-weight: 600;
+  }
+  /* Menambahkan Flexbox untuk menyusun gambar dan teks secara sejajar */
+.row.align-items-center {
+  display: flex;
+  align-items: center; /* Vertikal sejajar */
+  justify-content: center; /* Horizontal sejajar */
+}
+
+.col-md-5, .col-md-7 {
+  padding: 15px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #c0c0c0;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
